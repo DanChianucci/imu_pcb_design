@@ -1,1 +1,20 @@
-Changed the Readme for test commit with SmartGit
+The Goal of this project is to create a 9 dof MARGS/AHRS/IMU circuit board.  
+
+Main Parts include:
+
+ITG3200 	3 axis gyroscope
+ADXL345 	3 axis accelerometer
+HMC5883L 	3 axis magnetometer
+ATMEGA328P 	microcontroller
+ATMEGA8U2 	microcontroller
+PCA9306DCUR 	i2c logic level translator
+
+ 
+These Schematics and Board Layout Files were created using EagleCad Which can be found at:
+	http://www.cadsoftusa.com/
+	
+Additionally, many footprints and symbols were taken from the Sparkfun Eagle Library which can be found at:
+	https://github.com/sparkfun/SparkFun-Eagle-Library
+
+This project is not affiliated with Arduino which can be read about at:
+	http://www.arduino.cc/
