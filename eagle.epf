@@ -30,14 +30,16 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-5.11.0/lbr/wuerth-elektronik.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-5.11.0/lbr/zetex.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-5.11.0/lbr/Mine/Mine.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-5.11.0/lbr/Mine/SparkFun.lbr"
+UsedLibrary="TRUMP.lbr"
+UsedLibrary="Mine.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="180 180 779 579"
+Loc="90 96 689 495"
 State=0
-Number=1
-File="C:/Users/Dan/Documents/eagle/9dof/9DoF-Stick-v13.sch"
-View="-55050 -42347 2541322 1893483"
+Number=2
+File="IMU.sch"
+View="-2621050 -1986114 2643578 1957698"
 WireWidths=" 0 3048 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 4064 1524"
 PadDiameters=" 2540 3048 4064 6096 8128 10160 12700 14224 16764 17780 19304 21844 25400 38100 64516 0"
 PadDrills=" 5000 6000 7000 9000 10000 11000 12000 13000 14000 15000 16000 20000 22000 28000 32000 8000"
@@ -69,11 +71,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -2621050 -1986114 2643578 1957698"
 Sheet=1
 
 [Win_2]
 Type="Control Panel"
-Loc="621 142 1220 541"
+Loc="0 0 941 1000"
 State=1
 Number=0
 
