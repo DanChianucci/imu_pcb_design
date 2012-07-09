@@ -1,15 +1,29 @@
-The Goal of this project is to create a 9 dof MARGS/AHRS/IMU circuit board.  
+This Board is an Arduino Compatable IMU/MARGS solution.
+Given the Correct Firmware this unit can calculate its orientation 
+relative to the earth at any given time.
+
+IMU = Inertial Measurement Unit
+MARGS = Magnetic, Angular Rate, Gravity Sensor
+
 
 Main Parts include:
 
 ITG3200 	    3 axis gyroscope
 ADXL345 	    3 axis accelerometer
 HMC5883L 	    3 axis magnetometer
-ATMEGA328P 	    microcontroller
-ATMEGA8U2 	    microcontroller
+ATMEGA328P 	    Microcontroller
+ATMEGA8U2 	    USB Microcontroller
 PCA9306DCUR 	i2c logic level translator
 
- 
+!!!!!!!!NOTE!!!!!!!!!!!
+	-I recently recieved the pcb and assembled my first unit.  It works perfectly.
+	 However, the Resonator that I ordered (in the parts list) is too big to fit on the footprint.
+	 Instead use a CSTCE16 from Murata.
+	 
+	 The 3x4 Interupt/ IO select header will not work with standard male headers because the holes are too small.
+	 Workaround by using swiss machine pin headers, or headers with a small diameter pin.
+	 
+
 These Schematics and Board Layout Files were created using EagleCad Which can be
 found at:
     http://www.cadsoftusa.com/
